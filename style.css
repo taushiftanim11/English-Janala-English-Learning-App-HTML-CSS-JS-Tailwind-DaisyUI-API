@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
+@media (min-width: 1px) {
+    .f1 {
+        font-family: "Poppins", sans-serif;
+        font-weight: 100;
+    }
+    .f2 {
+        font-family: "Poppins", sans-serif;
+        font-weight: 200;
+    }
+    .f3 {
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+    }
+    .f4 {
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+    }
+    .f5 {
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+    }
+    .f6 {
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+    }
+    .f7 {
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+    }
+    .f8 {
+        font-family: "Poppins", sans-serif;
+        font-weight: 800;
+    }
+    .f9 {
+        font-family: "Poppins", sans-serif;
+        font-weight: 900;
+    }
+    .ff1 {
+        font-family: "Hind Siliguri", sans-serif;
+        font-weight: 100;
+    }
+    .ff2 {
+        font-family: "Hind Siliguri", sans-serif;
+        font-weight: 200;
+    }
+    .ff3 {
+        font-family: "Hind Siliguri", sans-serif;
+        font-weight: 300;
+    }
+    .ff4 {
+        font-family: "Hind Siliguri", sans-serif;
+        font-weight: 400;
+    }
+    .ff5 {
+        font-family: "Hind Siliguri", sans-serif;
+        font-weight: 500;
+    }
+    .ff6 {
+        font-family: "Hind Siliguri", sans-serif;
+        font-weight: 600;
+    }
+    .ff7 {
+        font-family: "Hind Siliguri", sans-serif;
+        font-weight: 700;
+    }
+    .ff8 {
+        font-family: "Hind Siliguri", sans-serif;
+        font-weight: 800;
+    }
+    .ff9 {
+        font-family: "Hind Siliguri", sans-serif;
+        font-weight: 900;
+    }
+    
+}
+*{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+body{
+    background-color: white;
+    scroll-behavior: smooth;
+}
+input{
+    outline: none;
+}
+.s{
+    width: 100%;
+}
+.a{
+    width: 1756px;
+    margin: 0 auto;
+}
+
+header, 
+.learn-s, 
+.faq-s{
+    display: none;
+}
+.no-lesson-block{
+    display: none;
+}
+
+
+
+
+
+.navbtn *{
+    color: #422AD5;
+    background-color: #412ad500;
+}
+.navbtn{
+    border-color: #422AD5;
+    color: #422AD5;
+    box-shadow: none;
+}
+.navbtn:hover *{
+    background-color: #ffffff00;
+    color: white;
+}
+.navbtn:hover {
+    background-color: #422AD5;
+    color: white;
+}

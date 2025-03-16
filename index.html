@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English Janala</title>
+    <script src="https://kit.fontawesome.com/25bed3c975.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="header-s" class="header-s s bg-[#EDEDED] border-b-[1px] border-[#C6BDBD] sticky top-0 bottom-0 z-[99999999]">
+        <nav class="flex justify-between pt-[30px] pb-[30px] w-[1756px]  m-auto">
+            <div class="flex items-center">
+                <span class="f6 text-[black] text-[20px]">English</span>
+                <img class="w-[40px] h-[40px]" src="assets/logo.png" alt="English Janala Logo">
+                <span class="ff6 text-[black] text-[20px]">Janala</span>
+            </div>
+            <ul class="flex gap-x-[10px]">
+                <a href="#faq-s" class="navbtn btn btn-outline btn-primary f6 text-[14px]"><i class="fa-solid fa-circle-question"></i>FAQ</a>
+                <a href="#learn" class="navbtn btn btn-outline btn-primary f6 text-[14px]"><i class="fa-solid fa-book-open"></i>LEARN</a>
+                <a id="logout" class="navbtn btn btn-outline btn-primary f6 text-[14px]"><i class="fa-solid fa-right-from-bracket"></i>LOGOUT</a>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section class="header-s s">
+        <div id="hero" class="header-a a">
+            <div class="flex justify-between mb-[180px]">
+                <div class="mt-[210px]">
+                    <h1 class="f7 text-[black] text-[48px]"><span class="f7 text-[#22BCFF]">English </span>is easy!!</h1>
+                    <p class="ff5 text-[#464649] text-[24px] w-[710px] mt-[20px]">আজ থেকেই আপনার ভাষা শেখার যাত্রা শুরু করুন। আপনি যদি নতুন হন অথবা আপনার দক্ষতা বাড়াতে চান, আমাদের Interactive Lessons আপনাকে নিয়ে যাবে অন্য একটি Level এ</p>
+                    <form action="javascript:void(0)" class="mt-[40px] flex flex-col gap-y-[20px] w-[320px] items-stretch">
+                        <input id="user-id" type="text" placeholder="Your Name" class="input" value="test">
+                        <input id="password" type="text" placeholder="Enter Your Password" class="input" value="123456">
+                        <button id="login" class="navbtn btn btn-outline btn-primary f6 text-[14px] self-start">Get Started</button>
+                    </form>
+                </div>
+                <img src="assets/hero-student.png" alt="Student Handing A Book" class="mt-[50px]">
+            </div>
+        </div>
+    </section>
+
+    <div id="learn" class="pb-[100px]">&nbsp;</div>
+    <section id="learn-s" class="learn-s s">
+        <div class="learn-a a flex flex-col items-center">
+            <h2 class="f7 text-[black] text-[42px] mb-[15px]"><span class="f7 text-[#22BCFF]">Let's</span> Learn Vocabularies</h2>
+
+            <div class="flex gap-x-[20px] mb-[40px]" id="learnButtonContainer">
+
+            </div>
+
+            <div class="bg-[#F8F8F8] self-stretch p-[40px]">
+
+                <div id="no-button-clicked" class="flex flex-col items-center rounded-[20px]">
+                    <span class="ff4 text-[#79716B] text-[13px] pt-[65px]">আপনি এখনো কোন Lesson Select করেন ন</span>
+                    <span class="ff4 text-[#292524] text-[34px] pb-[65px]">একটি Lesson Select করুন।</span>
+                </div>
+
+                <div id="no-lesson-block"  class="no-lesson-block flex flex-col items-center rounded-[20px]">
+                    <img src="assets/alert-error.png" class="mb-[30px] pt-[65px]">
+                    <span class="ff4 text-[#79716B] text-[13px]">এই Lesson এ এখনো কোন Vocabulary যুক্ত করা হয়নি।</span>
+                    <span class="ff4 text-[#292524] text-[34px] pb-[65px]">নেক্সট Lesson এ যান</span>
+                </div>
+
+                <div class="flex flex-wrap justify-between content-between gap-x-[30px] gap-y-[30px]"  id="lessons-container">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section id="faq-s" class="faq-s s">
+        <div class="faq-a a flex flex-col items-center">
+            <h2 class="f7 text-[black] text-[42px] mb-[15px] mt-[225px]"><span class="f7 text-[#22BCFF]">Frequently</span> Asked Questions</h2>
+            <div class="w-full flex flex-col gap-y-[20px] mb-[280px]">
+                <div class="collapse collapse-plus bg-[#F8F8F8] border border-base-300 w-full">
+                    <input type="radio" name="my-accordion-3" checked="checked" />
+                    <div class="collapse-title font-semibold">1. What is the difference between "var", "let", and "const"?</div>
+                    <div class="collapse-content text-sm text-[#62748E]">
+                        "var" is function-scoped, while "let" and "const" are block-scoped. "let" can be reassigned, but "const" is immutable.
+                    </div>
+                </div>
+                <div class="collapse collapse-plus bg-[#F8F8F8] border border-base-300">
+                    <input type="radio" name="my-accordion-3" />
+                    <div class="collapse-title font-semibold">2. What is the difference between "map()", "forEach()", and "filter()"?</div>
+                    <div class="collapse-content text-sm text-[#62748E]">
+                        "map()" creates a new array with transformed data, "forEach()" performs an action for each array element without returning anything, and "filter()" creates a new array with elements that meet a condition.
+                    </div>
+                </div>
+                <div class="collapse collapse-plus bg-[#F8F8F8] border border-base-300">
+                    <input type="radio" name="my-accordion-3" />
+                    <div class="collapse-title font-semibold">3. What are arrow functions, and how are they different from regular functions?</div>
+                    <div class="collapse-content text-sm text-[#62748E]">
+                        Arrow functions have a concise syntax, inherit "this" from their parent scope, and cannot be used as constructors, unlike regular functions.
+                    </div>
+                </div>
+                <div class="collapse collapse-plus bg-[#F8F8F8] border border-base-300">
+                    <input type="radio" name="my-accordion-3" />
+                    <div class="collapse-title font-semibold">4. How do JavaScript Promises work?</div>
+                    <div class="collapse-content text-sm text-[#62748E]">
+                        Promises represent asynchronous operations with states: pending, resolved, or rejected. They simplify chaining and error handling using ".then()" and ".catch()".
+                    </div>
+                </div>
+                <div class="collapse collapse-plus bg-[#F8F8F8] border border-base-300">
+                    <input type="radio" name="my-accordion-3" />
+                    <div class="collapse-title font-semibold">5. What are closures in JavaScript?</div>
+                    <div class="collapse-content text-sm text-[#62748E]">
+                        Closures are functions that retain access to variables from their outer scope, even after the outer function has finished execution.
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    
+    <section class="footer-s s border-t-[3px] border-[#FFEBEB]">
+        <div class="footer-a a pt-[100px] pb-[100px] flex justify-between items-center">
+            <div class="flex flex-col gap-y-[10px]">
+                <div class="flex items-center">
+                    <span class="f6 text-[black] text-[20px]">English</span>
+                    <img class="w-[40px] h-[40px]" src="assets/logo.png" alt="English Janala Logo">
+                    <span class="ff6 text-[black] text-[20px]">Janala</span>
+                </div>
+                <span class="ff6 text-[20px]">ইংরেজি শিখুন সহজে</span>
+                <span class="f4 text-[16px]">Providing ED-Tech Applications since 2025</span>
+            </div>
+            <div>
+                <span class="text-[#626268]">Follow us</span>
+                <ul class="flex items-center gap-x-[10px]">
+                    <li><img src="assets/github-thumb.png"></li>
+                    <li><img src="assets/instagram-thumb.png"></li>
+                    <li><img src="assets/youtube-thumb.png"></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    <dialog id="my_modal" class="modal">
+    </dialog>
+
+    <script src="script.js"></script>
+</body>
+</html>
