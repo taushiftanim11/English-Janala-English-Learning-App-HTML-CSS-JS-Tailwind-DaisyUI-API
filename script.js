@@ -5,6 +5,7 @@ document.getElementById("login").addEventListener("click", function(event){
     const convertedPassword = parseInt(password);
 
     if(userId.length > 0 && convertedPassword === 123456){
+        alert("Login Successful")
         document.getElementById("header-s").style.display = "block";
         document.getElementById("learn-s").style.display = "block";
         document.getElementById("faq-s").style.display = "block";
